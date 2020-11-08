@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- &display=swap&subset=cyrillic-ext -->
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>homework_15</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container _container">
+				<div class="header__row">
+					<div class="header__column header__column_l">
+						<a href="#" class="header__logo logo"><span>Uzbek</span>lar.<span>net</span></a>
+						<nav class="header__menu menu">
+							<div class="menu__body">
+								<div class="menu__container _container">
+									<ul class="menu__list">
+										<li class=""><a href="#" class="menu__link"><span>фильмы</span></a></li>
+										<li class=""><a href="#" class="menu__link"><span>клипы</span></a></li>
+										<li class=""><a href="#" class="menu__link"><span>Музыка</span></a></li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+					</div>
+					<div class="header__column header__column_r">
+						<form class="header__form form-search" action="#">
+							<div class="form-search__item">
+								<input data-da="menu__container, 630" id="search" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="" placeholder="Поиск..." class="form-search__input">
+								<button type="submit" class="form__btn">
+									<picture>
+										<source srcset="img/icons/header/search.svg" type="image/webp"><img src="img/icons/header/search.svg" alt=""></picture>
+								</button>
+							</div>
+						</form>
+						<div data-da="menu__container, 420, 1" class="header__user">
+							<div class="user-likes">
+								<a href="#" class="user-likes__link"></a>
+							</div>
+							<div class="user-account">
+								<a href="#" class="user-account__link"><span></span></a>
+							</div>
+						</div>
+						<div class="icon-menu">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="home-main">
+				<div class="home-main__container _container">
+					<div class="home-main__row">
+						<div class="home-main__column">
+							<div class="home-main__item">
+								<a href="#" class="home-main__image _ibg">
+									<picture>
+										<source srcset="img/homepage/mainblock/01.webp" type="image/webp"><img src="img/homepage/mainblock/01.png" alt=""></picture>
+									<h2 class="home-main__title">Фильмы</h2>
+								</a>
+							</div>
+						</div>
+						<div class="home-main__column">
+							<div class="home-main__item">
+								<a href="#" class="home-main__image _ibg">
+									<picture>
+										<source srcset="img/homepage/mainblock/02.webp" type="image/webp"><img src="img/homepage/mainblock/02.png" alt=""></picture>
+									<h2 class="home-main__title">Клипы</h2>
+								</a>
+							</div>
+						</div>
+						<div class="home-main__column">
+							<div class="home-main__item">
+								<a href="#" class="home-main__image _ibg">
+									<picture>
+										<source srcset="img/homepage/mainblock/03.webp" type="image/webp"><img src="img/homepage/mainblock/03.png" alt=""></picture>
+									<h2 class="home-main__title">Песни</h2>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="movies">
+				<div class="movies__container _container">
+					<div class="movies__wrapp">
+						<h2 class="movies__title title title_b">Фильмы по жанрам онлайн</h2>
+					</div>
+					<div class="movies__row">
+						<div class="movies__column">
+							<div class="movies__item item-movies">
+								<a href="#" class="item-movies__content">
+									<div class="item-movies__image _ibg">
+										<picture>
+											<source srcset="img/films/01.webp" type="image/webp"><img src="img/films/01.png" alt=""></picture>
+									</div>
+									<h3 class="item-movies__subtitle subtitle-mainpage">Снайпер</h3>
+								</a>
+								<p class="item-movies__text text-mainpage">Боевик</p>
+							</div>
+						</div>
+						<div class="movies__column">
+							<div class="movies__item item-movies">
+								<a href="#" class="item-movies__content">
+									<div class="item-movies__image _ibg">
+										<picture>
+											<source srcset="img/films/02.webp" type="image/webp"><img src="img/films/02.png" alt=""></picture>
+									</div>
+									<h3 class="item-movies__subtitle subtitle-mainpage">Сумалак кастинг</h3>
+								</a>
+								<p class="item-movies__text text-mainpage">Комедия</p>
+							</div>
+						</div>
+						<div class="movies__column">
+							<div class="movies__item item-movies">
+								<a href="#" class="item-movies__content">
+									<div class="item-movies__image _ibg">
+										<picture>
+											<source srcset="img/films/03.webp" type="image/webp"><img src="img/films/03.png" alt=""></picture>
+									</div>
+									<h3 class="item-movies__subtitle subtitle-mainpage">Эр бермок, Жон бермок 2</h3>
+								</a>
+								<p class="item-movies__text text-mainpage">Фэнтези</p>
+							</div>
+						</div>
+					</div>
+					<div class="movies__button">
+						<a href="#" class="movies__link">Все фильмы</a>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="clips">
+				<div class="clips__container _container">
+					<div class="clips__wrapp">
+						<h2 class="clips__title title">Клипы онлайн</h2>
+					</div>
+					<div class="clips__items">
+						<div class="clips__column">
+							<div class="clips__item item-clips">
+								<a href="#" class="item-clips__content">
+									<div class="item-clips__image">
+										<picture><source srcset="img/clips/01.webp" type="image/webp"><img src="img/clips/01.jpg" alt=""></picture>
+									</div>
+									<h3 class="item-clips__subtitle subtitle-mainpage">Снайпер</h3>
+								</a>
+								<p class="item-clips__text text-mainpage">Боевик</p>
+							</div>
+						</div>
+						<div class="clips__column">
+							<div class="clips__item item-clips">
+								<a href="#" class="item-clips__content">
+									<div class="item-clips__image">
+										<picture><source srcset="img/clips/02.webp" type="image/webp"><img src="img/clips/02.jpg" alt=""></picture>
+									</div>
+									<h3 class="item-clips__subtitle subtitle-mainpage">Сумалак кастинг</h3>
+								</a>
+								<p class="item-clips__text text-mainpage">Комедия</p>
+							</div>
+						</div>
+						<div class="clips__column">
+							<div class="clips__item item-clips">
+								<a href="#" class="item-clips__content">
+									<div class="item-clips__image">
+										<picture><source srcset="img/clips/03.webp" type="image/webp"><img src="img/clips/03.jpg" alt=""></picture>
+									</div>
+									<h3 class="item-clips__subtitle subtitle-mainpage">Эр бермок, Жон берм...</h3>
+								</a>
+								<p class="item-clips__text text-mainpage">Фэнтези</p>
+							</div>
+						</div>
+						<div class="clips__column">
+							<div class="clips__item item-clips">
+								<a href="#" class="item-clips__content">
+									<div class="item-clips__image">
+										<picture><source srcset="img/clips/04.webp" type="image/webp"><img src="img/clips/04.jpg" alt=""></picture>
+									</div>
+									<h3 class="item-clips__subtitle subtitle-mainpage">Жених на прокат | ...</h3>
+								</a>
+								<p class="item-clips__text text-mainpage">Документальный</p>
+							</div>
+						</div>
+						<div class="clips__column">
+							<div class="clips__item item-clips">
+								<a href="#" class="item-clips__content">
+									<div class="item-clips__image">
+										<picture><source srcset="img/clips/03.webp" type="image/webp"><img src="img/clips/03.jpg" alt=""></picture>
+									</div>
+									<h3 class="item-clips__subtitle subtitle-mainpage">Снайпер</h3>
+								</a>
+								<p class="item-clips__text text-mainpage">Боевик</p>
+							</div>
+						</div>
+						<div class="clips__column">
+							<div class="clips__item item-clips">
+								<a href="#" class="item-clips__content">
+									<div class="item-clips__image">
+										<picture><source srcset="img/clips/01.webp" type="image/webp"><img src="img/clips/01.jpg" alt=""></picture>
+									</div>
+									<h3 class="item-clips__subtitle subtitle-mainpage">Сумалак кастинг</h3>
+								</a>
+								<p class="item-clips__text text-mainpage">Комедия</p>
+							</div>
+						</div>
+						<div class="clips__column">
+							<div class="clips__item item-clips">
+								<a href="#" class="item-clips__content">
+									<div class="item-clips__image">
+										<picture><source srcset="img/clips/04.webp" type="image/webp"><img src="img/clips/04.jpg" alt=""></picture>
+									</div>
+									<h3 class="item-clips__subtitle subtitle-mainpage">Эр бермок, Жон берм...</h3>
+								</a>
+								<p class="item-clips__text text-mainpage">Фэнтези</p>
+							</div>
+						</div>
+						<div class="clips__column">
+							<div class="clips__item item-clips">
+								<a href="#" class="item-clips__content">
+									<div class="item-clips__image">
+										<picture><source srcset="img/clips/02.webp" type="image/webp"><img src="img/clips/02.jpg" alt=""></picture>
+									</div>
+									<h3 class="item-clips__subtitle subtitle-mainpage">Жених на прокат | ...</h3>
+								</a>
+								<p class="item-clips__text text-mainpage">Документальный</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<!-- <div class="playlist">
+				<div class="playlist__container _container">
+					<div class="playlist__body">
+						<div class="playlist__column">
+							<div class="playlist__items items-playlist">
+								<div class="items-playlist__wrapp">
+									<h2 class="items-playlist__tilte title_b">Новые треки</h2>
+								</div>
+								<div class="items-playlist__item item-playlist">
+									<div class="item-playlist__column">
+										<div class="item-playlist__number">01</div>
+										<a href="#" class="item-playlist__body">
+											<div class="item-playlist__icon icon">
+												<div class="icon__image"><picture><source srcset="img/playlist/icons/player-play.svg" type="image/webp"><img src="img/playlist/icons/player-play.svg" alt=""></picture></div>
+											</div>
+											<div class="item-playlist__content">
+												<h3 class="item-playlist__subtitle">Эр бермок, Жон бермок 2</h3>
+												<p class="item-playlist__text">Жэрбэк</p>
+											</div>
+										</a>
+									</div>
+									<div class="item-playlist__column">
+										<div class="item-playlist__time">03:22</div>
+										<a href="#" class="item-playlist__download">
+											<div class="download__image"><picture><source srcset="img/playlist/icons/download.svg" type="image/webp"><img src="img/playlist/icons/download.svg" alt=""></picture></div>
+										</a>
+										<div class="item-playlist__size">1129</div>
+									</div>
+								</div>
+								<div class="items-playlist__show">
+									<a href="#" class="items-playlist__link">Показать всё</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="playlist__column">
+						<div class="playlist__wrapp">
+							<h2 class="playlist__tilte title_b"></h2>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</main>
+
+	</div>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
